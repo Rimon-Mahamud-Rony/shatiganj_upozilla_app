@@ -15,7 +15,10 @@ import {
 export function DrawerScrollableContet() {
   return (
     <Drawer direction="right">
-      <DrawerTrigger asChild className="border border-indigo-500 rounded hover:bg-blue-500 hover:border-blue-500 hover:text-white hover:px-4  cursor-pointer">
+      <DrawerTrigger
+        asChild
+        className="border border-indigo-500 rounded hover:bg-blue-500 hover:border-blue-500 hover:text-white hover:px-3 text-sm  cursor-pointer"
+      >
         <Button variant="outline">
           <FiAlignJustify />
         </Button>
@@ -25,7 +28,10 @@ export function DrawerScrollableContet() {
           <div className="flex flex-row justify-between">
             <DrawerTitle>Move Goal</DrawerTitle>
             <DrawerClose asChild>
-              <Button variant="outline" className="border border-red-500 hover:bg-red-500 hover:text-white cursor-pointer">
+              <Button
+                variant="outline"
+                className="border border-red-500 hover:bg-red-500 hover:text-white cursor-pointer "
+              >
                 <AiOutlineClose />
               </Button>
             </DrawerClose>

@@ -20,8 +20,6 @@ const solaimanLipi = localFont({
 });
 
 export function Navbar() {
-
-
   
     return (
       <header className="text-gray-600 body-font bg-white/40 backdrop-blur-md">
@@ -41,8 +39,8 @@ export function Navbar() {
               className="mr-5 text-gray-900 cursor-pointer hover:text-green-500"
             >
               <div className="flex flex-row gap-x-1 text-xl">
-                <IoHome className="text-base mt-1" />
-                <p className="text-xl font-light">হোম</p>
+                <IoHome className="text-sm sm:text-base mt-1" />
+                <p className="text-md sm:text-xl font-light">হোম</p>
               </div>
             </a>
 
@@ -51,8 +49,8 @@ export function Navbar() {
               className="mr-5 text-gray-900 cursor-pointer hover:text-green-500"
             >
               <div className="flex flex-row gap-x-1 text-xl">
-                <ImAddressBook className="text-base mt-1" />
-                <p className="text-xl font-light">যোগাযোগ</p>
+                <ImAddressBook className="text-sm sm:text-base mt-1" />
+                <p className="text-md sm:text-xl font-light">যোগাযোগ</p>
               </div>
             </a>
 
@@ -61,8 +59,8 @@ export function Navbar() {
               className="mr-5 text-gray-900 cursor-pointer hover:text-green-500"
             >
               <div className="flex flex-row gap-x-1 text-xl">
-                <IoMdNotifications className="text-base mt-1" />
-                <p className="text-xl font-light">নোটিফিকেশন</p>
+                <IoMdNotifications className="text-sm sm:text-base mt-1" />
+                <p className="text-md sm:text-xl font-light">নোটিফিকেশন</p>
               </div>
             </a>
 
@@ -71,8 +69,8 @@ export function Navbar() {
               className="mr-5 text-gray-900 cursor-pointer hover:text-green-500"
             >
               <div className="flex flex-row gap-x-1 text-xl">
-                <RiLoginBoxFill className="text-base mt-1" />
-                <p className="text-xl font-light">ইউনিয়ন লগইন</p>
+                <RiLoginBoxFill className="text-sm sm:text-base mt-1" />
+                <p className="text-md sm:text-xl font-light">ইউনিয়ন লগইন</p>
               </div>
             </a>
 
