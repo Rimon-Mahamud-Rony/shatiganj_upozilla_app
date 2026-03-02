@@ -24,7 +24,7 @@ const items = Array.from({ length: 10 }, (_, i) => ({
 
 export function Content() {
   return (
-    <div className={`w - 10 / 12 px-4 py-10 m-auto ${montserrat.className}`}>
+    <div className={`w-10/12 px-1 sm:px-4 py-10 m-auto ${montserrat.className}`}>
       {/* <!-- Main Container --> */}
       <div
         className="px-8 m-auto 
