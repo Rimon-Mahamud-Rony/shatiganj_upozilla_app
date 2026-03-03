@@ -49,7 +49,7 @@ export function Content() {
               <motion.div
                 key={item.id}
                 initial={{
-                  x: index % 2 === 0 ? -150 : 300,
+                  x: index % 2 === 0 ? -20 : 20,
                   opacity: 0,
                 }}
                 whileInView={{ x: 0, opacity: 1 }} // ✅ Scroll এ animate হবে
