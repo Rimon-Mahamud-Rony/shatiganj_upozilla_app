@@ -22,7 +22,7 @@ const solaimanLipi = localFont({
 export function Navbar() {
   
     return (
-      <header className="text-gray-600 body-font bg-white/60 backdrop-blur-md fixed top-0 left-0 w-full z-50">
+      <header className="text-gray-600 body-font bg-white/60 backdrop-blur-md">
         <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center shadow-sm blur-in-md">
           <a className="flex title-font font-medium items-center text-gray-900 mb-2 md:mb-0">
             <span

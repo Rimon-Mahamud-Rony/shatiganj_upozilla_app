@@ -23,7 +23,7 @@ export function Banner() {
             relative w-full min-h-[60vh] sm:min-h-[75vh] md:min-h-[80vh]
     bg-[url('/images/shantiganj_banner.jpg')]
     bg-cover bg-center bg-no-repeat
-    flex items-center justify-center "
+    flex items-center justify-center"
     >
       {/* <!-- Dark Overlay --> */}
       <div className="absolute inset-0 bg-black/30 backdrop-blur-[1px]"></div>
