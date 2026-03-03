@@ -55,7 +55,7 @@ export function Content() {
                 whileInView={{ x: 0, opacity: 1 }} // ✅ Scroll এ animate হবে
                 viewport={{
                   once: true, // একবারই animate হবে
-                  amount: 0.1, // 30% visible হলে trigger
+                  amount: 0.1, // 10% visible হলে trigger
                 }}
                 transition={{
                   duration: 0.3,

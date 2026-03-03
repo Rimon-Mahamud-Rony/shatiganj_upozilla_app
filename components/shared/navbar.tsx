@@ -22,11 +22,11 @@ const solaimanLipi = localFont({
 export function Navbar() {
   
     return (
-      <header className="text-gray-600 body-font bg-white/60 backdrop-blur-md fixed top-0 z-50 sm:w-full">
-        <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center shadow-sm blur-in-md">
+      <header className="w-full text-gray-600 body-font bg-white/60 backdrop-blur-md fixed top-0 z-50 ">
+        <div className="w-full container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center shadow-sm blur-in-md">
           <a className="flex title-font font-medium items-center text-gray-900 mb-2 md:mb-0">
             <span
-              className={`ml-3 text-3xl font-semibold text-green-800 ${solaimanLipi.className}`}
+              className={`ml-3 text-2xl sm:text-3xl font-semibold text-green-800 ${solaimanLipi.className}`}
             >
               জনসেবায় শান্তিগঞ্জ
             </span>
@@ -39,8 +39,8 @@ export function Navbar() {
               className="mr-5 text-gray-900 cursor-pointer hover:text-green-500"
             >
               <div className="flex flex-row gap-x-1 text-xl">
-                <IoHome className="text-sm sm:text-base mt-1" />
-                <p className="text-md sm:text-xl font-light">হোম</p>
+                <IoHome className="text-xs sm:text-base mt-1" />
+                <p className="text-sm sm:text-xl font-light">হোম</p>
               </div>
             </a>
 
@@ -49,8 +49,8 @@ export function Navbar() {
               className="mr-5 text-gray-900 cursor-pointer hover:text-green-500"
             >
               <div className="flex flex-row gap-x-1 text-xl">
-                <ImAddressBook className="text-sm sm:text-base mt-1" />
-                <p className="text-md sm:text-xl font-light">যোগাযোগ</p>
+                <ImAddressBook className="text-xs sm:text-base mt-1" />
+                <p className="text-sm sm:text-xl font-light">যোগাযোগ</p>
               </div>
             </a>
 
@@ -59,8 +59,8 @@ export function Navbar() {
               className="mr-5 text-gray-900 cursor-pointer hover:text-green-500"
             >
               <div className="flex flex-row gap-x-1 text-xl">
-                <IoMdNotifications className="text-sm sm:text-base mt-1" />
-                <p className="text-md sm:text-xl font-light">নোটিফিকেশন</p>
+                <IoMdNotifications className="text-xs sm:text-base mt-1" />
+                <p className="text-sm sm:text-xl font-light">নোটিফিকেশন</p>
               </div>
             </a>
 
@@ -69,8 +69,8 @@ export function Navbar() {
               className="mr-5 text-gray-900 cursor-pointer hover:text-green-500"
             >
               <div className="flex flex-row gap-x-1 text-xl">
-                <RiLoginBoxFill className="text-sm sm:text-base mt-1" />
-                <p className="text-md sm:text-xl font-light">ইউনিয়ন লগইন</p>
+                <RiLoginBoxFill className="text-xs sm:text-base mt-1" />
+                <p className="text-sm sm:text-xl font-light">ইউনিয়ন লগইন</p>
               </div>
             </a>
 
