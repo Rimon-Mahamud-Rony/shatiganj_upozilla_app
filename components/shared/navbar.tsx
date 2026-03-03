@@ -74,9 +74,9 @@ export function Navbar() {
               </div>
             </a>
 
-            <button className="inline-flex items-center text-base">
+            <a className="inline-flex items-center text-base">
               <DrawerScrollableContet />
-            </button>
+            </a>
           </nav>
         </div>
       </header>

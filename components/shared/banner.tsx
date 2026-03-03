@@ -33,9 +33,6 @@ export function Banner() {
         className="relative z-10 flex flex-col items-center justify-center 
               text-center text-white px-4 sm:px-8"
           >
-              <div>
-                  <img src="" alt="" />
-              </div>
               <motion.h1
                   initial={{ x: -300, opacity: 0 }}
                   animate={{ x: 0, opacity: 1 }}

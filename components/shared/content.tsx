@@ -24,7 +24,7 @@ const items = Array.from({ length: 10 }, (_, i) => ({
 
 export function Content() {
   return (
-    <div className={`w-10/12 px-1 sm:px-4 py-10 m-auto ${montserrat.className}`}>
+    <div className={`w-full sm:w-11/12 px-1 sm:px-4 py-10 m-auto ${montserrat.className}`}>
       {/* <!-- Main Container --> */}
       <div
         className="px-8 m-auto 
@@ -49,13 +49,13 @@ export function Content() {
               <motion.div
                 key={item.id}
                 initial={{
-                  x: index % 2 === 0 ? -300 : 300,
+                  x: index % 2 === 0 ? -150 : 300,
                   opacity: 0,
                 }}
                 whileInView={{ x: 0, opacity: 1 }} // ✅ Scroll এ animate হবে
                 viewport={{
                   once: true, // একবারই animate হবে
-                  amount: 0.3, // 30% visible হলে trigger
+                  amount: 0.1, // 30% visible হলে trigger
                 }}
                 transition={{
                   duration: 0.3,
