@@ -46,7 +46,7 @@ export default function Footer() {
             >
               <div className="flex flex-row gap-x-1 text-xl">
                 <RiLoginBoxFill className="text-xs mt-1" />
-                <p className="text-sm font-light">ইউনিয়ন লগইন</p>
+                <p className="text-sm font-light">লগইন</p>
               </div>
             </a>
           </div>
