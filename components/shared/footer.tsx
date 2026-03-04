@@ -9,10 +9,10 @@ export default function Footer() {
       <div className="h-10"></div>
       <footer className="text-gray-600  text-center py-4 fixed bottom-0 bg-white/60 backdrop-blur-md w-full">
         <div id="mobile menu" className="block sm:hidden">
-          <div className="w-full px-1 flex flex-row justify-around items-center gap-x-1">
+          <div className="w-full px-1 flex flex-row justify-center items-center gap-x-4 m-auto">
             <a
               href="http://localhost:3000/"
-              className="mr-5 text-gray-900 cursor-pointer hover:text-green-500"
+              className=" text-gray-900 cursor-pointer p-2 border border-green-500 rounded hover:bg-green-700 hover:text-white  shadow-md"
             >
               <div className="flex flex-row gap-x-1 text-xl">
                 <IoHome className="text-xs mt-1" />
@@ -22,7 +22,7 @@ export default function Footer() {
 
             <a
               href="http://localhost:3000/"
-              className="mr-5 text-gray-900 cursor-pointer hover:text-green-500"
+              className=" text-gray-900 cursor-pointer p-2 border border-green-500 rounded hover:bg-green-700 hover:text-white  shadow-md"
             >
               <div className="flex flex-row gap-x-1 text-xl">
                 <ImAddressBook className="text-xs mt-1" />
@@ -32,7 +32,7 @@ export default function Footer() {
 
             <a
               href="http://localhost:3000/"
-              className="mr-5 text-gray-900 cursor-pointer hover:text-green-500"
+              className=" text-gray-900 cursor-pointer p-2 border border-green-500 rounded hover:bg-green-700 hover:text-white  shadow-md"
             >
               <div className="flex flex-row gap-x-1 text-xl">
                 <IoMdNotifications className="text-xs mt-1" />
@@ -42,7 +42,7 @@ export default function Footer() {
 
             <a
               href="http://localhost:3000/"
-              className="mr-5 text-gray-900 cursor-pointer hover:text-green-500"
+              className=" text-gray-900 cursor-pointer p-2 border border-green-500 rounded hover:bg-green-700 hover:text-white shadow-md"
             >
               <div className="flex flex-row gap-x-1 text-xl">
                 <RiLoginBoxFill className="text-xs mt-1" />
