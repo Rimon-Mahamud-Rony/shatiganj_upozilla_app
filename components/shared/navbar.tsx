@@ -23,7 +23,7 @@ export function Navbar() {
   
     return (
       <header className="w-full text-gray-600 body-font bg-white/60 backdrop-blur-md fixed top-0 z-50 ">
-        <div className="w-full container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center shadow-sm blur-in-md">
+        <div className="w-full container mx-auto flex flex-wrap p-2 flex-col md:flex-row justify-center items-center shadow-sm blur-in-md">
           <a className="flex title-font font-medium items-center text-gray-900 mb-2 md:mb-0">
             <span
               className={`ml-3 text-2xl sm:text-3xl font-semibold text-green-800 ${solaimanLipi.className}`}
